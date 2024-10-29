@@ -39,7 +39,6 @@ public WebDriver initilizeDriver () throws IOException {
 	prop.load(file);	
 
 	/**
-	this code is the same of ( if, else )
 	if System.getProperty("browser") not null so execute the instruction before ":" System.getProperty("browser") -- take the browser name entred from cmd commande
 	else if System.getProperty("browser") null so execute the instruction after ":" prop.getProperty("browser") -- take browser name from GlobalData file
 	System.getProperty("browser"): to use the "browser" value sent via cmd : -Dbrowser=chrome
