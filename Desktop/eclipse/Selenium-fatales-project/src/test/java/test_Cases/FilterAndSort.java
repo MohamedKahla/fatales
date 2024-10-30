@@ -63,7 +63,7 @@ public void FilterByPrice () throws InterruptedException {
 	HomePage home =	login.Login("kahlouchmamado@gmail.com", "MEDKHL@ssw0rd");
 	ProductPage productPage = home.SelectProductBrachneByName("PARFUM");
 	String[] SortedList =	productPage.FilterByPrice("70,000 TND", "1 080,000 TND");
-	assertTrue(SortedList[0].contains("70,000 TND") && SortedList[1].contains("1 089,000 TND")   );
+	assertTrue(SortedList[0].contains("70,000 TND") && SortedList[1].contains("1 080,000 TND")   );
 }
 
 
